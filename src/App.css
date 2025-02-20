@@ -1,0 +1,15 @@
+.heading {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: lighter; /* Impact is already bold by default */
+}
+
+.text {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight:lighter;
+}
+
+/* For italic variants if available */
+.text-italic {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-style: italic;
+}

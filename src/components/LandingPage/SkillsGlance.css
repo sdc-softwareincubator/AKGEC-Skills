@@ -1,0 +1,36 @@
+.skills-glance {
+  position: relative;
+  height: 400px; /* Default height for larger screens */
+  background-image: url('/public/back.jpg'); /* Replace with your image path */
+  background-size: cover;
+  background-attachment: fixed; /* This makes the background fixed */
+  background-position: center;
+  color: white; /* Adjust text color for visibility */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.skills-glance::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6); /* Black overlay with 60% opacity */
+  z-index: 1; /* Ensure the overlay is above the background but below the content */
+}
+
+.skills-glance > div {
+  position: relative; /* Ensure content is above the overlay */
+  z-index: 2; /* Bring content above the overlay */
+}
+
+/* Media queries for mobile and tablet views */
+@media (max-width: 1028px) {
+  .skills-glance {
+    height: 1000px; /* Increased height for mobile and tablet views */
+  }
+} 

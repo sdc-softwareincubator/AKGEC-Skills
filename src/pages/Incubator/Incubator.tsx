@@ -10,7 +10,7 @@ const Incubator: React.FC = () => {
                     <img src="/upstart_logo.png" alt="" className='lg:w-[200px] w-[140px]' />
                     <h1 className="text-gray-950 font-semibold text-xl lg:text-3xl whitespace-nowrap text-center">Technology Business Incubator (ASF-TBI)</h1>
                     <a href="https://forms.gle/1QktfiRmKb5ZfrnR9" target="_blank" rel="noopener noreferrer" className="bg-red-400 hover:bg-red-300 text-xl p-2">Apply Now</a>
-                </div>
+                </div> 
                 <div className='mx-2 flex xl:flex-row flex-col '>
                     <div className="flex flex-col h-full xl:w-1/2 gap-3 mx-2">
                         <div className="sm:w-1/2 flex gap-3 sm:flex-row h-full flex-col">

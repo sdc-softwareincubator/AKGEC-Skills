@@ -52,9 +52,9 @@ const Navbar: React.FC = () => {
         </button>
         <div className="hidden md:flex items-center gap-6">
           <div className="flex items-center gap-6 text-xl text-[rgb(113,186,231)]">
-            <a href="/#training" onClick={scrollToSection('training')} className="hover:text-blue-900 cursor-pointer transition-colors">Training</a>
-            <a href='/#services'  onClick={scrollToSection('services')} className="hover:text-blue-900 cursor-pointer transition-colors">Services</a>
-            <a href='/#CoEs'  onClick={scrollToSection('CoEs')} className="hover:text-blue-900 cursor-pointer transition-colors">CoEs</a>
+            <a href="/" onClick={scrollToSection('training')} className="hover:text-blue-900 cursor-pointer transition-colors">Training</a>
+            <a href='/'  onClick={scrollToSection('services')} className="hover:text-blue-900 cursor-pointer transition-colors">Services</a>
+            <a href='/'  onClick={scrollToSection('CoEs')} className="hover:text-blue-900 cursor-pointer transition-colors">CoEs</a>
             <Link to="/incubator" className="hover:text-blue-900 cursor-pointer transition-colors">Incubator</Link>
           </div>
           <img src={nsdcLogo} alt="nsdc-logo" className="h-12" />
@@ -94,9 +94,9 @@ const Navbar: React.FC = () => {
       `}>
         <div className="flex flex-col p-4 gap-4 shadow-lg">
           <div className="flex flex-col gap-4 text-lg text-[rgb(113,186,231)]">
-            <a href="/#training"  onClick={scrollToSection('training')}  className="hover:text-blue-900 cursor-pointer transition-colors">Training</a>
-            <a href="/#services"  onClick={scrollToSection('services')}  className="hover:text-blue-900 cursor-pointer transition-colors">Services</a>
-            <a href="/#CoEs"  onClick={scrollToSection('CoEs')}  className="hover:text-blue-900 cursor-pointer transition-colors">CoEs</a>
+            <a href="/"  onClick={scrollToSection('training')}  className="hover:text-blue-900 cursor-pointer transition-colors">Training</a>
+            <a href="/"  onClick={scrollToSection('services')}  className="hover:text-blue-900 cursor-pointer transition-colors">Services</a>
+            <a href="/"  onClick={scrollToSection('CoEs')}  className="hover:text-blue-900 cursor-pointer transition-colors">CoEs</a>
             <Link to="/incubator" className="hover:text-blue-900 cursor-pointer transition-colors">Incubator</Link>
           </div>
           <div className="flex items-center justify-between">

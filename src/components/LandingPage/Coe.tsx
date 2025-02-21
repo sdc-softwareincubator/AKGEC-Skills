@@ -21,6 +21,14 @@ const cards :CoEs[]=[
         link:"https://kuka.akgecskills.in/"
     },
     {
+        img:"/drone1.png",
+        title:"AKGEC Drone Academy",
+        logo:"/logo_droneAcademy.jpg",
+        subtitle1:"Training - Certification",
+        subtitle2:"",
+        link:"/droneacademy"
+    },
+    {
         img:"/bosch.jpg",
         title:"Centre of Competence in Automation Technologies",
         logo:"/bosch_logo.jpg",
